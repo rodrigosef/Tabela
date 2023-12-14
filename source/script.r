@@ -46,11 +46,14 @@ if (settings_rdatatable_params_showCompact == "yes") {
     filter = settings_rdatatable_params_showColumnFilters,
     width = "100%",
     height = "100%",
+      extensions = list('Buttons','Scroller'),
     options = list(
-      dom = 't',
+      #dom = 't',
       pageLength = settings_rdatatable_params_method,
       autoWidth = FALSE,
-      scroller = FALSE
+      scroller = FALSE,
+      dom = 'tB',
+      buttons = c('copy', 'csv', 'excel')
     )
   )
 } else {
@@ -61,7 +64,7 @@ if (settings_rdatatable_params_showCompact == "yes") {
     filter = settings_rdatatable_params_showColumnFilters,
     width = "100%",
     height = "100%",
-    extensions = list('Scroller'),
+    extensions = list('Buttons','Scroller'),
 
     options = list(
       pageLength = settings_rdatatable_params_method,
@@ -69,7 +72,9 @@ if (settings_rdatatable_params_showCompact == "yes") {
       autoWidth = FALSE,
       scrollX = "100%",
       scrollY = "100%",
-      scroller = TRUE
+      scroller = TRUE,
+      dom = 'tB',
+      buttons = c('copy', 'csv', 'excel')
     )
 
   )
