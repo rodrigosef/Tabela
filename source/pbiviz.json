@@ -1,7 +1,7 @@
 {
   "visual": {
-    "name": "Tabela",
-    "displayName": "Tabela",
+    "name": "rDataTable",
+    "displayName": "rDataTable",
     "guid": "rDataTable1E31640E1F5745CAB826AF450430250A",
     "visualClassName": "Visual",
     "version": "1.1.0.5",
@@ -9,7 +9,7 @@
     "supportUrl": "https://deldersveld.github.io/powerbi/support/rdatatable",
     "gitHubUrl": "https://github.com/rodrigosef/Tabela"
   },
-  "apiVersion": "1.0.0",
+  "apiVersion": "1.7.0",
   "author": {
     "name": "Estatística TRT18",
     "email": "rodrigo.alves@trt18.jus.br"
